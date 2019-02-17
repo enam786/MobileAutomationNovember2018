@@ -1,8 +1,7 @@
-package appPage;
+package CheckMenuPage;
 
 
 import java.net.URL;
-import java.util.List;
 import java.net.MalformedURLException;
 
 import common.Base;
