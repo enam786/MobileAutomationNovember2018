@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>UiCatalog</module>
         <module>NYP</module>
+        <module>NYPost</module>
     </modules>
 
     <dependencyManagement>
