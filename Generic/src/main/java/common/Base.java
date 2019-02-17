@@ -161,9 +161,7 @@ public class Base {
     public void clickByXpathWebElement(WebElement locator){
         locator.click();
     }
-    public void sleep(int sec)throws InterruptedException{
-        Thread.sleep(1000 * sec);
-    }
+    public void sleep(int sec)throws InterruptedException{ Thread.sleep(1000 * sec); }
 
     public void typeByXpath(String locator, String value, Keys key){
         ad.findElement(By.xpath(locator)).sendKeys(value);
